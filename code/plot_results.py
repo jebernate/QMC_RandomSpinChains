@@ -235,6 +235,6 @@ def plot_correlations():
 if __name__ == "__main__":
     os.makedirs("images", exist_ok=True)
 
-    plot_eq()
-    # plot_correlations()
+    # plot_eq()
+    plot_correlations()
     # plot_structure_factor()
