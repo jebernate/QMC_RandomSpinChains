@@ -7,7 +7,7 @@ This repository contains code to simulate a spin-1/2 random antiferromagnetic He
 To run the main part of the code:
 
 ```bash
-g++ -fopenmp -O3 code/main.cpp -o main && ./main
+g++ -fopenmp -O3 code/main.cpp -o main && ./main input/input0.75.txt 
 ```
 This will produce .txt files with the disorder-averaged zz correlation function.
 
